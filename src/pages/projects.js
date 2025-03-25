@@ -131,6 +131,18 @@ export default function Projects() {
                 <Card.Link href={intern}>presentation</Card.Link>
               </Card.Body>
             </Card>
+            <Card>
+              <Sparkle count={5} />
+
+              <Card.Body>
+                <Card.Title>ThuyVy Tries Things!</Card.Title>
+                <br></br>
+                <Card.Text>
+                  Tracking and documenting new hobbies and things I try
+                </Card.Text>
+                <Card.Link href={"/tries"}>link</Card.Link>
+              </Card.Body>
+            </Card>
           </Col>
           <Col>
             <Card>
