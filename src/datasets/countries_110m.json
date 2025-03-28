@@ -16261,6 +16261,7 @@
         "brk_diff": 0,
         "name": "Netherlands",
         "name_long": "Netherlands",
+        "visited": 1,
         "brk_a3": "NLD",
         "brk_name": "Netherlands",
         "brk_group": null,
