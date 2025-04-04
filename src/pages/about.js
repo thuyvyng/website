@@ -1,6 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Navigation from "../components/navbar";
-import Me from "../photos/thuyvy.jpeg";
+import Me from "../photos/tv.jpeg";
 
 export default function About() {
   return (
