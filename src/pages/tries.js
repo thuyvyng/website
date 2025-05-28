@@ -1,6 +1,7 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Navigation from "../components/navbar";
 import Cherry from "../photos/cherry.JPG";
+import Bag from "../photos/beadedbag.jpeg";
 
 export default function Tries() {
   return (
@@ -31,7 +32,18 @@ export default function Tries() {
               </Card.Body>
             </Card>
           </Col>
-          <Col></Col>
+          <Col>
+            <Card>
+              <Card.Img src={Bag} />
+              <Card.Body>
+                <Card.Title>Beaded Bag!</Card.Title>
+
+                <Card.Link href="https://collectivegen.com/2024/01/how-to-make-a-beaded-handbag/">
+                  tutorial
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col></Col>
         </Row>
       </Container>
