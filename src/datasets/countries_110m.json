@@ -7249,7 +7249,7 @@
         "scalerank": 1,
         "labelrank": 4,
         "sovereignt": "Denmark",
-
+        "visited": 1,
         "sov_a3": "DN1",
         "adm0_dif": 1,
         "level": 2,
@@ -9730,7 +9730,6 @@
         "scalerank": 1,
         "labelrank": 3,
         "sovereignt": "Denmark",
-        "visited": 1,
         "sov_a3": "DN1",
         "adm0_dif": 1,
         "level": 2,
