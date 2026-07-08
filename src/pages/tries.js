@@ -3,6 +3,7 @@ import Navigation from "../components/navbar";
 import Cat from "../photos/cat.jpg";
 import Cherry from "../photos/cherry.JPG";
 import Bag from "../photos/beadedbag.jpeg";
+import Scrunchie from "../photos/scrunchie.jpeg";
 
 export default function Tries() {
   return (
@@ -23,6 +24,19 @@ export default function Tries() {
         <Row>
           <Col>
             <Card>
+              <Card.Img src={Scrunchie} />
+              <Card.Body>
+                <Card.Title>Flower Scrunchies!</Card.Title>
+                <Card.Subtitle>feat Adrienne</Card.Subtitle>
+
+                <Card.Link href="https://www.youtube.com/watch?v=XI6STvzwTkA">
+                  tutorial
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
               <Card.Img src={Bag} />
               <Card.Body>
                 <Card.Title>Beaded Bag!</Card.Title>
@@ -38,7 +52,7 @@ export default function Tries() {
               <Card.Img src={Cat} />
               <Card.Body>
                 <Card.Title>Cat Beanie!</Card.Title>
-                <Card.Subtitle>feat model Adrienne</Card.Subtitle>
+                <Card.Subtitle>feat Adrienne</Card.Subtitle>
 
                 <Card.Link href="https://www.youtube.com/watch?v=ucLVhRLQjng">
                   tutorial
@@ -51,7 +65,6 @@ export default function Tries() {
               <Card.Img src={Cherry} />
               <Card.Body>
                 <Card.Title>Cherry Bracelets!</Card.Title>
-
                 <Card.Link href="https://honestlywtf.com/diy/diy-beaded-cherry-bracelet//">
                   tutorial
                 </Card.Link>
